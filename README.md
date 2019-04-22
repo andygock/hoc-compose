@@ -10,13 +10,13 @@ const composedHoc = BaseComponent => hoc1(hoc2(hoc3(BaseComponent)))
 Install:
 
 ```
-npm i -s compose-hoc
+npm i -s hoc-compose
 ```
 
 Example usage:
 
 ```js
-import { compose } from 'compose-hoc'
+import { compose } from 'hoc-compose'
 
 // ... your code
 
